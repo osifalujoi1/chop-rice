@@ -9,4 +9,9 @@
     height: auto;
     border-radius: 8px; 
     object-fit: cover;
+
+    @media screen and (max-width: 450px) {
+    height: 30rem;
+    object-fit: cover;
+}
 }

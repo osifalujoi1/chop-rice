@@ -6,12 +6,12 @@ import { useRef, useState } from 'react'
 function Dish({ title, img, price, description, onAddToOrder, orderRef }) {
   const handleClick = (e) => {
     e.preventDefault()
-    alert('Order added! 🎉')
     onAddToOrder(title)
-
+    
     if (orderRef?.current) {
       orderRef.current.scrollIntoView({ behavior: 'smooth' })
     }
+    alert('Order added! 🎉')
   }
   return (
     <div className={styles.dish}>

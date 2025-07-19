@@ -48,6 +48,9 @@
 
   &__image {
     height: 17rem;
+    max-width: 100%;
+    max-height: 17rem;
+    object-fit: cover;
     margin: 1rem 0;
     transition: var(--transition);
   }
@@ -75,8 +78,8 @@
 
   @media screen and (max-width: 450px) {
     &__image {
-      width: 100%;
       height: auto;
+      max-height: 25rem;
     }
   }
 }

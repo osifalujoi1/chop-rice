@@ -20,7 +20,7 @@ export default function Home() {
       <Header />
       <Main />
       <Footer />
-      <Loader />
+      {/* <Loader /> */}
       <ScrollUp />
     </div>
   )
