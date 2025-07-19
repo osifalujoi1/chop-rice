@@ -47,7 +47,7 @@ const Order = forwardRef(function Order(props, ref) {
     return
   }
 
-  emailjs.send(process.env.EMAILJS_SERVICE_ID, process.env.EMAILJS_TEMPLATE_ID, {
+  emailjs.send(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, {
     name: formData.name,
     phone: formData.phone,
     comment: formData.comment,
@@ -57,7 +57,7 @@ const Order = forwardRef(function Order(props, ref) {
     order: orderItems.length > 0
     ? orderItems.map(i => `${i.title} x${i.quantity}`).join(', ')
     : 'No items'
-}, process.env.EMAILJS_PUBLIC_API)
+}, process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_API)
     .then((result) => {
       console.log('Email sent:', result.text)
       alert('Order sent! 🎉')
