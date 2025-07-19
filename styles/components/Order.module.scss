@@ -3,11 +3,39 @@
     max-width: 90rem;
     margin: 0 auto;
     padding: 1.5rem;
-    background: var(--white);
+    background: var(--grey);
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
     transition: var(--transition);
+  }
+
+  .orderList {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    color: var(--white);
+    font: 1.5em sans-serif;
+  }
+
+  .orderItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .quantityInput {
+    width: 50px;
+    padding: 0.2rem;
+    text-align: center;
+  }
+
+  .deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
   }
 
   &__container {
@@ -24,7 +52,7 @@
         padding: 0.5rem 0;
         display: block;
         font-size: 1.5rem;
-        color: var(--light-color);
+        color: var(--white);
         transition: var(--transition);
       }
 
@@ -32,7 +60,7 @@
         width: 100%;
         padding: 1rem;
         margin-bottom: 1rem;
-        background: var(--grey);
+        background: var(--white);
         font-size: 1.6rem;
         color: var(--black);
         border-radius: 0.5rem;

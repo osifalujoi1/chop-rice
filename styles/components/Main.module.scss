@@ -1,9 +1,11 @@
 .main {
-  width: 100%;
+  right: 0;
+  left: 0;
+  width: 101%;
   display: flex;
   flex-direction: column;
   padding: 1rem 7%;
-  background: var(--white);
+  background: var(--black);
   transition: var(--transition);
 
   @media screen and (max-width: 991px) {

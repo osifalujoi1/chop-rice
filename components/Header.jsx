@@ -51,7 +51,7 @@ function Header() {
     <header className={styles.header}>
       <a href='#' className={styles.header__logo}>
         <span className='fas fa-utensils' />
-        resto.
+        Chop rice
       </a>
       <nav
         id='nav'
@@ -85,8 +85,8 @@ function Header() {
           className={classNames('fas fa-search', styles.search)}
           onClick={() => setToggleSearch(true)}
         />
-        <span className='fas fa-heart' />
-        <span className='fas fa-shopping-cart' />
+        {/* <span className='fas fa-heart' />
+        <span className='fas fa-shopping-cart' /> */}
       </div>
       <SearchForm
         active={toggleSearch}

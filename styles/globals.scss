@@ -2,11 +2,12 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 :root {
-  --white: #fff;
-  --grey: #eee;
+  --white: #ced1ce;
+  --grey: #192219;
   --light-color: #666;
-  --black: #192a56;
+  --black: #000000;
   --green: #27ae60;
+  --orange: #FF5400;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --transition: all 0.2s linear;
 }
@@ -34,16 +35,17 @@ html {
     font-size: 55%;
   }
 
-  @media screen and (max-width: 450 px) {
+  @media screen and (max-width: 450px) {
     font-size: 50%;
   }
 }
 
 section {
-  padding: 2rem;
+  padding: 3rem;
+  border-radius: 1.2rem;
 
   &:nth-child(even) {
-    background-color: var(--grey);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   @media screen and (max-width: 991px) {
@@ -57,20 +59,26 @@ section {
   font-size: 1.7rem;
   color: var(--white);
   background: var(--black);
-  border-radius: 0.5rem;
   cursor: pointer;
   padding: 0.8rem;
   transition: var(--transition);
 
   &:hover {
+    border-style: none;
     background: var(--green);
     letter-spacing: 0.1rem;
   }
 }
 
+.formButton {
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: var(--green);
+}
+
 .heading {
   text-align: center;
-  color: var(--black);
+  color: var(--white);
   font-size: 3rem;
   padding-bottom: 2rem;
   text-transform: uppercase;
@@ -85,6 +93,15 @@ section {
   transition: var(--transition);
 }
 
+.second-heading {
+  text-align: center;
+  color: var(--green);
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
 .swiper {
   width: 100%;
   max-width: 1200px;
@@ -92,4 +109,23 @@ section {
 
 .swiper-pagination-bullet-active {
   background: var(--green);
+}
+
+.checkboxLabel{
+  color: var(--white);
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1rem auto;
+
+  a{
+    text-decoration: none;
+    color: #FF5400;
+  }
+
+  input[type='checkbox'] {
+    margin-right: 0.75rem;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+  }
 }

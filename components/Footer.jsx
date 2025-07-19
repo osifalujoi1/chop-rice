@@ -6,20 +6,17 @@ function Footer() {
       <div className={styles.footer__container}>
         <div className={styles.footer__column}>
           <h3 className={styles.title}>locations</h3>
-          <a href='#' className={styles.footer__link}>
+          {/* <a href='#' className={styles.footer__link}>
             india
           </a>
           <a href='#' className={styles.footer__link}>
             japan
+          </a> */}
+          <a href='#' className={styles.footer__link}>
+            Northern Kentucky
           </a>
           <a href='#' className={styles.footer__link}>
-            russia
-          </a>
-          <a href='#' className={styles.footer__link}>
-            USA
-          </a>
-          <a href='#' className={styles.footer__link}>
-            france
+            Cincinnati, Ohio
           </a>
         </div>
         <div className={styles.footer__column}>
@@ -27,18 +24,18 @@ function Footer() {
           <a href='#' className={styles.footer__link}>
             home
           </a>
-          <a href='#' className={styles.footer__link}>
+          {/* <a href='#' className={styles.footer__link}>
             dishes
           </a>
           <a href='#' className={styles.footer__link}>
             about
-          </a>
+          </a> */}
           <a href='#' className={styles.footer__link}>
             menu
           </a>
-          <a href='#' className={styles.footer__link}>
-            reivew
-          </a>
+          {/* <a href='#' className={styles.footer__link}>
+            review
+          </a> */}
           <a href='#' className={styles.footer__link}>
             order
           </a>
@@ -46,45 +43,39 @@ function Footer() {
         <div className={styles.footer__column}>
           <h3 className={styles.title}>contact info</h3>
           <a href='#' className={styles.footer__link}>
-            +123-456-7890
+            +1 859-496-0548
           </a>
+          {/* <a href='#' className={styles.footer__link}>
+            +1 859-496-0157
+          </a> */}
           <a href='#' className={styles.footer__link}>
-            +111-222-3333
+            osifalujoboluwatife@gmail.com
           </a>
+          {/* <a href='#' className={styles.footer__link}>
+            posifalujo@gmail.com
+          </a> */}
           <a href='#' className={styles.footer__link}>
-            shaikhanas@gmail.com
-          </a>
-          <a href='#' className={styles.footer__link}>
-            anasbhai@gmail.com
-          </a>
-          <a href='#' className={styles.footer__link}>
-            mumbai, india - 400104
+            cold spring, KY.
           </a>
         </div>
         <div className={styles.footer__column}>
           <h3 className={styles.title}>follow us</h3>
-          <a href='#' className={styles.footer__link}>
-            facebook
-          </a>
-          <a href='#' className={styles.footer__link}>
-            twitter
-          </a>
-          <a href='#' className={styles.footer__link}>
+          <a href='https://www.instagram.com/chopp.riceee/' className={styles.footer__link}>
             instagram
           </a>
-          <a href='#' className={styles.footer__link}>
+          <a href='https://www.linkedin.com/in/bolu-osifalujo-03b066227/' className={styles.footer__link}>
             linkedin
           </a>
         </div>
       </div>
       <div className={styles.footer__credit}>
-        Copyright @ 2021 by{' '}
+        Copyright @ 2025 by{' '}
         <a
           target='_blank'
           rel='noreferrer'
-          href='https://github.com/smarqueslopez'
+          href='https://github.com/osifalujoi1'
         >
-          smarqueslopez
+          osifalujoi1
         </a>
       </div>
     </footer>

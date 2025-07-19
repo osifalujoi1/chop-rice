@@ -1,0 +1,12 @@
+.container {
+    max-width: 1000px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    object-fit: cover;
+}

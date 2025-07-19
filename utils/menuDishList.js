@@ -1,102 +1,75 @@
 const menuDishList = [
   {
     id: 1,
-    title: 'delicius food',
-    img: 'images/menu-1.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'jollof rice',
+    img: 'images/jollof-rice.jpg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'spicy tomato-based rice cooked with peppers, seasonings, and shrimp',
+    price: 10
   },
   {
     id: 2,
-    title: 'delicius food',
-    img: 'images/menu-2.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'fried rice',
+    img: 'images/fried-rice.jpeg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'stir-fried rice garnished with vegetables, and shrimp',
+    price: 10
   },
   {
     id: 3,
-    title: 'delicius food',
-    img: 'images/menu-3.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'grilled/fried chicken with choice of rice (drumstick)',
+    img: 'images/drumstick.jpg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'spicy chicken, grilled or fried, served with your choice of jollof or fried rice',
+    price: 15
   },
   {
     id: 4,
-    title: 'delicius food',
-    img: 'images/menu-4.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'grilled/fried chicken with choice of rice (wings)',
+    img: 'images/wings.jpg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'chicken wings paired with your preferred rice dish',
+    price: 18
   },
   {
     id: 5,
-    title: 'delicius food',
-    img: 'images/menu-5.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'whole grilled tilapia fish with choice of rice',
+    img: 'images/fish.jpg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'whole tilapia marinated in spices and grilled, served with jollof or fried rice',
+    price: 25
   },
   {
     id: 6,
-    title: 'delicius food',
-    img: 'images/menu-6.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'puff-puff',
+    img: 'images/puffpuff.webp',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      '10 pieces of soft, deep-fried dough balls',
+    price: 10
   },
   {
     id: 7,
-    title: 'delicius food',
-    img: 'images/menu-7.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'meatpie',
+    img: 'images/meatpie.jpeg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'buttery crust filled with seasoned minced beef, potatoes, and carrots',
+    price: 3
   },
   {
     id: 8,
-    title: 'delicius food',
-    img: 'images/menu-8.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'plantain',
+    img: 'images/plantain.png',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'Fried sliced plantain',
+    price: 5
   },
   {
     id: 9,
-    title: 'delicius food',
-    img: 'images/menu-9.jpg',
-    rating: 4,
-    detailed: false,
-    favorited: true,
+    title: 'gizzdodo',
+    img: 'images/gizzdodo.jpg',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adpisicing elit. Excepturi, accusantium.',
-    price: 12.99
+      'a mix of spicy grilled chicken gizzards and sweet fried plantains, sautéed in rich pepper sauce',
+    price: 10
   }
 ]
 

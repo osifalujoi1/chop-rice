@@ -1,23 +1,18 @@
-# react-restaurant-landing-page 🍕
+# Chop Rice - Restaurant Website
 
-Complete Responsive Food / Restaurant Landing page Design
+Chop Rice is a responsive and modern restaurant website built using Next.js and React. It provides a fast and user-friendly experience for showcasing a Nigerian culinary brand online.
 
-This is a [Next.js](https://nextjs.org/) project using [React.js](https://reactjs.org/) for building user interfaces and [SCSS Modules](https://github.com/css-modules) for styling it.
+## Features
 
-<img src="./documents/snapshot.png?raw=true" width="100%" alt="Landing page" />
+- Built with Next.js for server-side rendering and performance
+- Clean, responsive UI optimized for all devices
+- Dynamic food menu and category pages
+- SEO-friendly and accessible
+- Easy to maintain and deploy
 
-### Responsive page
+## Tech Stack
 
-This landing web was created by "mobile first" strategy.
-
-<img src="./documents/responsive-web.gif?raw=true" width="100%" alt="Responsive page" />
-
-## Deployed on [Vercel](https://www.vercel.com/)
-
-You can view a live demo [here](https://react-restaurant-landing-page.vercel.app/).
-
-## Links
-- Icons https://fontawesome.com/
-- Fonts https://fonts.google.com/
-- Images https://www.freepik.com/
-- Special thanks to Mr. Web Designer for this amazing [project](https://www.youtube.com/watch?v=MJUssi2c6Ls), support them in youtube [here](https://www.youtube.com/channel/UCKwgH3vASrD2brd1l2m6NHw)!
+- Next.js
+- React
+- CSS Modules
+- Node.js

@@ -1,7 +1,7 @@
 const sliderItems = [
   {
     id: '1',
-    title: 'spicy noodles',
+    title: 'Jollof rice',
     subtitle: 'our special dish',
     description:
       'Soy sauce salt miso butter roasted pork slices flavoured.',
