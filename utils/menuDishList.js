@@ -1,39 +1,39 @@
 const menuDishList = [
-  {
-    id: 1,
-    title: 'jollof rice',
-    img: 'images/jollof-rice.jpg',
-    description:
-      'spicy tomato-based rice cooked with peppers, seasonings, and shrimp',
-    price: 10
-  },
-  {
-    id: 2,
-    title: 'fried rice',
-    img: 'images/fried-rice.jpeg',
-    description:
-      'stir-fried rice garnished with vegetables, and shrimp',
-    price: 10
-  },
+  // {
+  //   id: 1,
+  //   title: 'jollof rice',
+  //   img: 'images/jollof-rice.jpg',
+  //   description:
+  //     'spicy tomato-based rice cooked with peppers, seasonings, and shrimp',
+  //   price: 10
+  // },
+  // {
+  //   id: 2,
+  //   title: 'fried rice',
+  //   img: 'images/fried-rice.jpeg',
+  //   description:
+  //     'stir-fried rice garnished with vegetables, and shrimp',
+  //   price: 10
+  // },
   {
     id: 3,
-    title: 'grilled/fried chicken with choice of rice (drumstick)',
-    img: 'images/drumstick.jpg',
+    title: 'drumstick with choice of rice',
+    img: 'images/jollof-rice.jpg',
     description:
       'spicy chicken, grilled or fried, served with your choice of jollof or fried rice',
     price: 15
   },
   {
     id: 4,
-    title: 'grilled/fried chicken with choice of rice (wings)',
-    img: 'images/wings.jpg',
+    title: 'wings with choice of rice',
+    img: 'images/fried-rice.jpeg',
     description:
       'chicken wings paired with your preferred rice dish',
     price: 18
   },
   {
     id: 5,
-    title: 'whole grilled tilapia fish with choice of rice',
+    title: 'whole tilapia fish with choice of rice',
     img: 'images/fish.jpg',
     description:
       'whole tilapia marinated in spices and grilled, served with jollof or fried rice',

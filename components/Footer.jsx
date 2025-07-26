@@ -42,9 +42,9 @@ function Footer() {
         </div>
         <div className={styles.footer__column}>
           <h3 className={styles.title}>contact info</h3>
-          <a href='#' className={styles.footer__link}>
+          {/* <a href='#' className={styles.footer__link}>
             +1 859-496-0548
-          </a>
+          </a> */}
           {/* <a href='#' className={styles.footer__link}>
             +1 859-496-0157
           </a> */}
@@ -54,9 +54,9 @@ function Footer() {
           {/* <a href='#' className={styles.footer__link}>
             posifalujo@gmail.com
           </a> */}
-          <a href='#' className={styles.footer__link}>
+          {/* <a href='#' className={styles.footer__link}>
             cold spring, KY.
-          </a>
+          </a> */}
         </div>
         <div className={styles.footer__column}>
           <h3 className={styles.title}>follow us</h3>

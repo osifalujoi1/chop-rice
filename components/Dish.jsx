@@ -11,7 +11,6 @@ function Dish({ title, img, price, description, onAddToOrder, orderRef }) {
     if (orderRef?.current) {
       orderRef.current.scrollIntoView({ behavior: 'smooth' })
     }
-    alert('Order added! 🎉')
   }
   return (
     <div className={styles.dish}>

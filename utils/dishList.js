@@ -1,57 +1,17 @@
 const dishList = [
   {
     id: 1,
-    title: 'hamburger',
-    img: 'images/dish-1.png',
-    rating: '4.5',
-    detailed: true,
-    favorited: true,
-    price: '15.99'
-  },
-  {
-    id: 2,
-    title: 'Chicken nuggets',
-    img: 'images/dish-2.png',
-    rating: '4.5',
-    detailed: true,
-    favorited: true,
-    price: '15.99'
+    title: 'Rice combo',
+    img: 'images/combo.webp',
+    description: 'fried plantain, spicy sauce, and choice of protein combined with Stir fried rice and spicy tomato-based rice ',
+    price: '20'
   },
   {
     id: 3,
-    title: 'Fried chicken',
-    img: 'images/dish-3.png',
-    rating: '4.5',
-    detailed: true,
-    favorited: true,
-    price: '15.99'
-  },
-  {
-    id: 4,
-    title: 'Hot pizza',
-    img: 'images/dish-4.png',
-    rating: '4.5',
-    detailed: true,
-    favorited: true,
-    price: '15.99'
-  },
-  {
-    id: 5,
-    title: 'ice cream cookies',
-    img: 'images/dish-5.png',
-    rating: '4.5',
-    detailed: true,
-    favorited: true,
-    price: '15.99'
-  },
-  {
-    id: 6,
-    title: 'chicken drums',
-    img: 'images/dish-6.png',
-    rating: '4.5',
-    detailed: true,
-    favorited: true,
-    price: '15.99'
+    title: 'Meal prep / Catering Services',
+    img: 'images/catering.jpg',
+    description: 'Bulk sale for meal prep orders or events (meat pie, puff-puff, gizzdodo, rice, etc)',
+    price: '30 - 135'
   }
 ]
 
