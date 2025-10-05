@@ -2,23 +2,23 @@ const sliderItems = [
   {
     id: '1',
     title: 'Jollof rice',
-    subtitle: 'our special dish',
+    subtitle: 'Combo',
     description:
       'Soy sauce salt miso butter roasted pork slices flavoured.',
-    img: 'images/home-img-1.png'
+    img: 'images/jollof-rice.jpg'
   },
   {
     id: '2',
-    title: 'fried chicken',
-    subtitle: 'our special dish',
+    title: 'Fried Chicken',
+    subtitle: 'Combo',
     description:
       'Bacon ipsum dolor amet short ribs brisket venison drumstick.',
     img: 'images/home-img-2.png'
   },
   {
     id: '3',
-    title: 'hot pizza',
-    subtitle: 'our special dish',
+    title: 'Meal Prep',
+    subtitle: 'Catering Services',
     description:
       'Pizza ipsum dolor amet mushrooms Chicago style string cheese.',
     img: 'images/home-img-3.png'

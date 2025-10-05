@@ -17,31 +17,31 @@ const menuDishList = [
   // },
   {
     id: 3,
-    title: 'drumstick with choice of rice',
+    title: 'Drumstick with choice of rice',
     img: 'images/jollof-rice.jpg',
     description:
-      'spicy chicken, grilled or fried, served with your choice of jollof or fried rice',
+      'Spicy chicken, grilled or fried, served with your choice of jollof or fried rice',
     price: 15
   },
   {
     id: 4,
-    title: 'wings with choice of rice',
+    title: 'Wings with choice of rice',
     img: 'images/fried-rice.jpeg',
     description:
-      'chicken wings paired with your preferred rice dish',
+      'Chicken wings paired with your preferred rice dish',
     price: 18
   },
   {
     id: 5,
-    title: 'whole tilapia fish with choice of rice',
+    title: 'Whole tilapia fish with choice of rice',
     img: 'images/fish.jpg',
     description:
-      'whole tilapia marinated in spices and grilled, served with jollof or fried rice',
+      'Whole tilapia marinated in spices and grilled, served with jollof or fried rice',
     price: 25
   },
   {
     id: 6,
-    title: 'puff-puff',
+    title: 'Puff-puff',
     img: 'images/puffpuff.webp',
     description:
       '10 pieces of soft, deep-fried dough balls',
@@ -49,15 +49,15 @@ const menuDishList = [
   },
   {
     id: 7,
-    title: 'meatpie',
+    title: 'Meatpie',
     img: 'images/meatpie.jpeg',
     description:
-      'buttery crust filled with seasoned minced beef, potatoes, and carrots',
+      'Buttery crust filled with seasoned minced beef, potatoes, and carrots',
     price: 3
   },
   {
     id: 8,
-    title: 'plantain',
+    title: 'Plantain',
     img: 'images/plantain.png',
     description:
       'Fried sliced plantain',
@@ -65,10 +65,10 @@ const menuDishList = [
   },
   {
     id: 9,
-    title: 'gizzdodo',
+    title: 'Gizzdodo',
     img: 'images/gizzdodo.jpg',
     description:
-      'a mix of spicy grilled chicken gizzards and sweet fried plantains, sautéed in rich pepper sauce',
+      'A mix of spicy grilled chicken gizzards and sweet fried plantains, sautéed in rich pepper sauce',
     price: 10
   }
 ]

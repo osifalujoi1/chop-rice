@@ -7,7 +7,7 @@ import styles from '@/styles/components/Reviews.module.scss'
 function Reviews() {
   return (
     <section className={styles.reviews} id='reviews'>
-      <h3 className='sub-heading'>customer&apos;s review</h3>
+      <h3 className='sub-heading'>customer reviews</h3>
       <h1 className='heading'>what they say</h1>
       <div className={styles.reviews__container}>
         <Swiper

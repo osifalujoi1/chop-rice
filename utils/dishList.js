@@ -1,9 +1,9 @@
 const dishList = [
   {
     id: 1,
-    title: 'Rice combo',
+    title: 'Rice Combo',
     img: 'images/combo.webp',
-    description: 'fried plantain, spicy sauce, and choice of protein combined with Stir fried rice and spicy tomato-based rice ',
+    description: 'Fried plantain, spicy sauce, and choice of protein combined with Stir fried rice and spicy tomato-based rice ',
     price: '20'
   },
   {

@@ -19,13 +19,14 @@ function Main() {
         { label: 'Wings', key: 'wings ' },
       ],
       'Meal prep / Catering Services': [
+        {label: 'Jollof / Fried Rice + Drumstick', key: 'ricedrumstick', sizes: ['Small (4 drumsticks) $40', 'Medium (10 drumsticks) $80', 'Large (15 drumsticks) $110'] },
+        { label: 'Jollof / Fried Rice', key: 'rice', sizes: ['Small $30', 'Medium $55', 'Large $75'] },
         { label: 'Puff-puff', key: 'puffpuff', sizes: ['Small $20', 'Medium $38', 'Large $70'] },
         { label: 'Gizzdodo ', key: 'gizzdodo', sizes: ['Small $25', 'Medium $45', 'Large $60'] },
         { label: 'Meat-pie', key: 'meatpie', sizes: ['Small $15', 'Medium $29', 'Large $55'] },
         { label: 'Drumstick', key: 'drumstick', sizes: ['Small $12.50', 'Medium $34', 'Large $60'] },
         { label: 'Wings', key: 'wings', sizes: ['Small $15', 'Medium $28', 'Large $55'] },
         { label: 'Whole Tilapia Grilled Fish', key: 'fish', sizes: ['Small $50', 'Medium $95', 'Large $135'] },
-        { label: 'Jollof/Fried Rice', key: 'rice', sizes: ['Small $30', 'Medium $55', 'Large $75'] },
       ],
       'drumstick with choice of rice': [
         { label: 'jollof rice', key: 'jollof'},
@@ -98,9 +99,10 @@ function Main() {
       {/* <SpecialDishes/> */}
       {/* <Recommended onAddToOrder={addItemToOrder} /> */}
       <Dishes onAddToOrder={addItemToOrder} orderRef={orderRef}/>
+      <Reviews />
       {/* <About /> */}
       <Menu onAddToOrder={addItemToOrder} orderRef={orderRef}/>
-      {/* <Reviews /> */}
+      
       <Order ref={orderRef} orderItems={orderItems} setOrderItems={setOrderItems} pendingOptionsItem={pendingOptionsItem} setPendingOptionsItem={setPendingOptionsItem} optionsMap={optionsMap} optionsEqual={optionsEqual}/>
       
     </main>

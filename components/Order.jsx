@@ -204,13 +204,13 @@ if (pendingOptionsItem) {
   return (
     <section className={styles.order} id='order' ref={ref}>
       {/* <h3 className='sub-heading'>order now</h3> */}
-      <h1 className='second-heading'>order now</h1>
+      <h1 className='second-heading'>Order Now</h1>
 
 
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.order__container}>
           <div className={styles.form__item}>
-            <span className={styles.label}>order</span>
+            <span className={styles.label}>Order</span>
             {orderItems.length === 0 ? (
               <p style={{ opacity: 0.6, color: 'white', fontSize: '1.5em' }}>No meals added yet.</p>
             ) : (
@@ -264,7 +264,7 @@ if (pendingOptionsItem) {
 
         <div className={styles.order__container}>
           <div className={styles.form__item}>
-            <span className={styles.label}>name</span>
+            <span className={styles.label}>Name</span>
             <input
               className={styles.input}
               type='text'
@@ -276,7 +276,7 @@ if (pendingOptionsItem) {
             ></input>
           </div>
           <div className={styles.form__item}>
-            <span className={styles.label}>phone number</span>
+            <span className={styles.label}>Phone number</span>
             <input
               className={styles.input}
               type='text'
@@ -290,7 +290,7 @@ if (pendingOptionsItem) {
         </div>
         <div className={styles.order__container}>
           <div className={styles.form__item}>
-            <span className={styles.label}>additional comment</span>
+            <span className={styles.label}>Additional comment</span>
             <input
               className={styles.input}
               type='text'
@@ -301,7 +301,7 @@ if (pendingOptionsItem) {
             ></input>
           </div>
           <div className={styles.form__item}>
-            <span className={styles.label}>date and time</span>
+            <span className={styles.label}>Date and time</span>
             <input
               className={styles.input}
               type='datetime-local'
@@ -315,7 +315,7 @@ if (pendingOptionsItem) {
         </div>
         <div className={styles.order__container}>
           <div className={styles.form__item}>
-            <span className={styles.label}>address (Optional)</span>
+            <span className={styles.label}>Address (Optional)</span>
             <textarea
               className={styles.input}
               name='address'
@@ -326,7 +326,7 @@ if (pendingOptionsItem) {
             ></textarea>
           </div>
           <div className={styles.form__item}>
-            <span className={styles.label}>message</span>
+            <span className={styles.label}>Message</span>
             <textarea
               className={styles.input}
               name='message'
@@ -339,7 +339,7 @@ if (pendingOptionsItem) {
         </div>
         <div className={styles.order__container}>
         <label className={classNames('checkboxLabel', styles.checkboxLabel)}>
-          By clicking "Order Now", you agree to the following {' '} 
+          By clicking  &quot;Order Now&quot;, you agree to the following {' '} 
           <span
             className={styles.termsLink}
             onClick={() => setShowTerms(true)}

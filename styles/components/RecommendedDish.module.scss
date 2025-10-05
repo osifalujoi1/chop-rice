@@ -1,39 +1,39 @@
 .special-dish {
-  max-width: 600px;  /* or 50%, or whatever size you want */
-  margin: 0 auto;
+max-width: 600px;  /* or 50%, or whatever size you want */
+margin: 0 auto;
 
-  &__content {
+&__content {
     flex: 1 1 45rem;
-  }
+}
 
-  &__title {
+&__title {
     color: var(--black);
     font-size: 7rem;
-  }
+}
 
-  &__subtitle {
+&__subtitle {
     color: var(--green);
     font-size: 2.5rem;
-  }
+}
 
-  &__description {
+&__description {
     color: var(--light-color);
     font-size: 2.2rem;
     padding: 0.5rem 0;
     line-height: 1.5;
-  }
+}
 
-  &__image {
+&__image {
     flex: 1 1 45rem;
 
     img {
-      width: 100%;
+    width: 100%;
     }
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     &__title {
-      font-size: 5rem;
+    font-size: 5rem;
     }
-  }
+}
 }
