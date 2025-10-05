@@ -20,7 +20,7 @@ function Reviews() {
             delay: 7500,
             disableOnInteraction: false
           }}
-          loop={true}
+          loop={false}
           breakpoints={{
             0: {
               slidesPerView: 1
@@ -28,15 +28,14 @@ function Reviews() {
             640: {
               slidesPerView: 2
             },
-            768: {
-              slidesPerView: 2
+            1280: {
+              slidesPerView: 3
             }
           }}
-          wrapperClass='swiper-wrapper'
         >
-          {reviewList.map((review, index) => {
+          {reviewList.map((review) => {
             return (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={review.id || review.name || review.img || review.msg}>
                 <Review {...review} />
               </SwiperSlide>
             )
